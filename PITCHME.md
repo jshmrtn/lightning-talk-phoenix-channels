@@ -3,6 +3,21 @@
 
 ---
 
+#### `whoami`
+#### Jonatan (Jony) Männchen - Partner @ JOSHMARTIN
+
+* (mostly) Backend Engineer
+* PHP, Elixir, JS
+* Symfony, Phoenix
+
+<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/team-955/images/2811693/twitter.svg" width="50" style="margin: 0; background: none; box-shadow: none; border: none;" />
+@maennchen_
+
+<img src="https://s3.amazonaws.com/media-p.slid.es/uploads/team-955/images/2811694/github.svg" width="50" style="margin: 0; background: none; box-shadow: none; border: none;" />
+@maennchen
+
+---
+
 #### Monad
 
  > A monad is an endofunctor (a functor mapping a category to itself), together with two natural transformations. Monads are used in the theory of pairs of adjoint functors, and they generalize closure operators on partially ordered sets to arbitrary categories.
