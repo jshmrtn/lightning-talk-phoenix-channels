@@ -68,6 +68,7 @@ https://en.wikipedia.org/wiki/Monad_(category_theory)
 
 #### Bare Example
 
+* Only an Example via REPL, no actual socket
 * `receive do ... end` - Waiting for a Message
 * `send pid, message` - Send a message
 
