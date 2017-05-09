@@ -28,13 +28,13 @@ https://en.wikipedia.org/wiki/Monad_(category_theory)
 
 ![Confused](https://media.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.gif)
 
+* Monads are not part of this talk
+
 ---
 
 #### Talk Contents
 
-* Monads are not part of this talk
 * Quiz Game in Phoenix Channels
-* Functional Paradigm
 * Phoenix Framework
 * Elixir
 * Maintaining State
