@@ -50,8 +50,24 @@ defmodule PhoenixExample.GameChannel do
     {:reply, {:ok, %{correct: QuestionStorage.correct?(question, answer)}}, socket}
   end
 
+  def handle_info(:timeout, socket = %Socket{assigns: %{state: {:question, _}, remaining_questions: remaining_questions}})
+  when remaining_questions > 1 do
+    push socket, "timeout", %{}
+
+    socket = socket
+    |> assign(:state, :idle)
+    |> assign(:remaining_questions, remaining_questions - 1)
+
+    {:noreply, socket}
+  end
+
   def handle_info(:timeout, socket = %Socket{assigns: %{state: {:question, _}}}) do
     push socket, "timeout", %{}
+
+    socket = socket
+    |> assign(:state, :quit)
+    |> assign(:remaining_questions, 0)
+
     {:noreply, socket}
   end
 end
