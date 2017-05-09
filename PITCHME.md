@@ -9,4 +9,65 @@
 
 https://en.wikipedia.org/wiki/Monad_(category_theory)
 
-* Not part of this talk
+---
+
+#### Talk Contents
+
+* Monads are not part of this talk
+* Quiz Game in Phoenix Channels
+* Functional Paradigm
+* Phoenix Framework
+* Elixir
+* Maintaining State
+   - Bare Example
+   - Phoenix Channel Example
+
+---
+
+#### Phoenix Framework
+
+* Modern Web Framework
+* API / Websites
+* Channels (Websocket / Long Poll)
+* Built on Elixir
+
+---
+
+#### Elixir
+
+* Built on top of Erlang
+* Concurrent
+* Pattern Matching
+* Immutable Data
+* No side effects
+* Actor Model (Message Passing)
+
+---
+
+#### Maintaining State
+
+* Tail Recursive Loop
+* Wait for Message
+
++++
+
+#### Bare Example
+
+* `receive do ... end` - Waiting for a Message
+* `send pid, message` - Send a message
+
+> Demo & Code
+
++++
+
+#### Phoenix Example
+
+* Abstraction
+  - Transport
+    * Websocket
+    * Long Poll
+  - Recursion (via `GenServer`)
+  - Messaging via Callbacks
+* Built with `Phoenix.Channel`
+
+> Demo & Code
