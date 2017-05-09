@@ -39,9 +39,7 @@ defmodule PhoenixExample.GameChannel do
     {:reply, {:ok, %{correct: QuestionStorage.correct?(question, answer)}}, socket}
   end
 
-  def handle_in("answer", answer, socket =
-    %Socket{assigns: %{state: {:question, question}, remaining_questions: remaining_questions, timer: timer}})
-    when remaining_questions > 1 do
+  def handle_in("answer", answer, socket = %Socket{assigns: %{state: {:question, question}, timer: timer}}) do
 
     :timer.cancel(timer)
 

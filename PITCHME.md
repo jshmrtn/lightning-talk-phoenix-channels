@@ -55,11 +55,10 @@ https://en.wikipedia.org/wiki/Monad_(category_theory)
 #### Elixir
 
 * Built on top of Erlang
-* Concurrent
-* Pattern Matching
+* [Concurrent](https://elixirschool.com/lessons/advanced/concurrency/)
+* [Pattern Matching](http://elixir-lang.org/getting-started/pattern-matching.html#pattern-matching-1)
 * Immutable Data
-* No side effects
-* Actor Model (Message Passing)
+* [Actor Model (Message Passing)](http://elixir-lang.org/getting-started/processes.html)
 
 ---
 
