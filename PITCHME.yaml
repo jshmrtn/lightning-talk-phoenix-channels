@@ -1,3 +1,3 @@
 theme : moon
-logo : https://cdn.rawgit.com/jshmrtn/lightning-talk-phoenix-channels/master/PITCHME/phoenix.svg
+logo : https://cdn.jsdelivr.net/gh/jshmrtn/lightning-talk-phoenix-channels/PITCHME/phoenix.svg
 theme-override : PITCHME/theme.css
